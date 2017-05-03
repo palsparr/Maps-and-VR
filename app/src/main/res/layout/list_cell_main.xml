@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="144dp">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/thumbnail"
+        android:layout_margin="7dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:text="NEWNEW"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_alignLeft="@+id/description"
+        android:layout_alignStart="@+id/description" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/description"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/distance"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_toEndOf="@+id/thumbnail"
+        android:layout_margin="7dp" />
+
+</RelativeLayout>
